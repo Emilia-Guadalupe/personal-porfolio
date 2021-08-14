@@ -1,10 +1,13 @@
 import React from 'react';
+import { NavBarWrapper } from './NavBarStyles';
 
-function NavBar(){
+function NavBar({open}){
     return(
-        <div>
-            
-        </div>
+        <NavBarWrapper open={open}>
+            <p className="link_styles">Link</p>
+            <p className="link_styles">Link</p>
+            <p className="link_styles">Link</p>
+        </NavBarWrapper>
     )
 }
 
