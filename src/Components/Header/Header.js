@@ -13,7 +13,7 @@ function Header() {
 
     return (
     <HeaderWrapper>
-        <h2>Logo</h2>
+        <h2 className="label">Emi Guadalupe</h2>
         <NavBar open={open} />
         <MenuButton open={open} handleClick={handleClick} />
     </HeaderWrapper>
