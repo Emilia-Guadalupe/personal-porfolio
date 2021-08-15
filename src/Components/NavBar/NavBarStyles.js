@@ -5,7 +5,7 @@ export const NavBarWrapper = styled.nav`
     flex-direction: column;
     justify-content: flex-start; 
     align-items: center;
-    background-color: #01233f; 
+    background-color: #044b5b; 
     position: fixed;
     top: 10vh;
     right: ${props => (props.open ? "0" : "-100%")};
