@@ -2,6 +2,11 @@
     height: 10rem;
 }
 
+.about-me-text {
+    text-align: justify;
+    margin: 2% 0 2% 0;
+}
+
 @media (max-width:480px) {
     .about-me-container {
         display: flex;
