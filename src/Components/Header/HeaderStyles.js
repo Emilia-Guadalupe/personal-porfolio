@@ -5,11 +5,10 @@ export const HeaderWrapper = styled.header`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #01233f;
-    border-bottom: 2px solid #4cabb3;
+    background-color: #f4f3ee;
 
     .label {
-        color: white;
+        color: #00a896;
         margin: 0rem 1rem 0rem 1rem;
         font-size: 1rem;
     }
