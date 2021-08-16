@@ -1,0 +1,28 @@
+.image_drawing {
+    height: 10rem;
+}
+
+@media (max-width:480px) {
+    .about-me-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-me-part {
+        padding: 10%;
+    }
+}
+
+@media only screen and (min-width: 624px) {
+    .about-me-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .about-me-part {
+        padding: 5%;
+    }
+}
+
