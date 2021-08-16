@@ -1,14 +1,15 @@
 import React from 'react';
+import './nameStyles.css';
 
 function Name() {
     return(
         <div className="title_container">
-            <div>
+            <div className="elements_container">
                 <p>PHOTO</p>
             </div>
-            <div>
-                <h1>Emi Guadalupe</h1>
-                <p>Web Developer</p>
+            <div className="elements_container">
+                <h1 className="name_text">Emi Guadalupe</h1>
+                <p className="name_text">Web Developer</p>
             </div>
         </div>
     )
