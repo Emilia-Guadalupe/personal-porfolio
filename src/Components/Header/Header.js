@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { HeaderWrapper } from './HeaderStyles';
 import NavBar from '../NavBar/NavBar';
 import MenuButton from '../MenuButton/MenuButton';
+import { Link } from 'react-router-dom';
 
 function Header() {
     
@@ -13,7 +14,9 @@ function Header() {
 
     return (
     <HeaderWrapper>
-        <h2 className="label">Emi Guadalupe</h2>
+        <Link to="/">
+            <h2 className="label">Emi Guadalupe</h2>
+        </Link>
         <NavBar open={open} />
         <MenuButton open={open} handleClick={handleClick} />
     </HeaderWrapper>
