@@ -1,0 +1,19 @@
+.full-stack-page {
+    height: 100%;
+}
+
+.stack-list-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.stack-container {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+}
+
+.stack-image {
+    height: 3rem;
+}
