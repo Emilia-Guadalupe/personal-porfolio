@@ -2,7 +2,6 @@ import React from 'react';
 import './myStackStyles.css';
 
 function StackList({id, name, img}) {
-    console.log(id)
 
     return(
         <div key={id} className="stack-container">
