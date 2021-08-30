@@ -6,7 +6,7 @@ function NavBar({open}){
     return(
         <NavBarWrapper open={open}>
             <Link className="link_styles" to="/my-stack">Mi Stack</Link>
-            <p className="link_styles">Link</p>
+            <Link className="link_styles" to="/my-projects">Mis Proyectos</Link>
             <p className="link_styles">Link</p>
         </NavBarWrapper>
     )
