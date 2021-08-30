@@ -1,19 +1,21 @@
 import React from 'react';
+import './projectStyles.css';
 
 //Components
 import Project from './Project';
 
 //Icons
-import Github from '../../assets/GitHub-Mark-32px.png';
-import Link from '../../assets/icons8-link-30.png';
+import GithubIcon from '../../Images/githubIcon.png';
+import LinkIcon from '../../Images/linkIcon.png';
 
 //Images
-import ProjectOne from '../../assets/Quorum_Project.jpg';
+import QuorumProject from '../../Images/quorumProject.jpg';
 
 function ProjectsGallery() {
+
     return(
         <div className="projects-gallery">
-            <Project project={ProjectOne} />
+            <Project photo={QuorumProject} github={GithubIcon} linkIcon={LinkIcon} githubLink="https://github.com/Emilia-Guadalupe/Quorum-iTeam-proyect" pageLink="https://quorum-i-team-proyect.vercel.app/" />
         </div>
     )
 }
