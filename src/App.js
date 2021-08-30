@@ -8,7 +8,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import Footer from './Components/Footer/Footer';
 import MyStack from './Components/MyStack/MyStack';
 import MyProjects from './Components/MyProjects/MyProjects';
-import Project from './Components/MyProjects/Project';
+import ProjectsGallery from './Components/MyProjects/ProjectsGallery';
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         </Route>
         <Route path="/my-projects">
             <MyProjects />
-            <Project />
+            <ProjectsGallery />
         </Route>
         </Switch>
       <Footer />
