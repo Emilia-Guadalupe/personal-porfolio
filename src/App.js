@@ -8,6 +8,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import Footer from './Components/Footer/Footer';
 import MyStack from './Components/MyStack/MyStack';
 import MyProjects from './Components/MyProjects/MyProjects';
+import Project from './Components/MyProjects/Project';
 
 function App() {
   return (
@@ -21,7 +22,10 @@ function App() {
         </Route>
         <Route path="/my-stack">
             <MyStack />
+        </Route>
+        <Route path="/my-projects">
             <MyProjects />
+            <Project />
         </Route>
         </Switch>
       <Footer />
