@@ -5,7 +5,7 @@ export const NavBarWrapper = styled.nav`
     flex-direction: column;
     justify-content: flex-start; 
     align-items: center;
-    background-color: #f4f3ee; 
+    background-color: #232946; 
     position: fixed;
     top: 10vh;
     right: ${props => (props.open ? "0" : "-100%")};
@@ -18,12 +18,12 @@ export const NavBarWrapper = styled.nav`
         position: initial;
         height: auto;
         justify-content: flex-end;
-        background: #f4f3ee;
+        background: #232946;
     }
 
     .link_styles {
         padding: 0.5rem 0.8rem;
-        color: #00a896;
+        color: #fffffe;
         text-decoration: none;
     }
 `;
