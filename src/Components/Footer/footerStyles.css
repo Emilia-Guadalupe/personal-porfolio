@@ -2,16 +2,30 @@
     width: 100vw;
     height: 4rem;
     display: flex;
-    background-color: #f4f3ee;
+    background-color: #232946;
     align-items: center;
     justify-content: center;
 }
 
 .footer-name {
     margin: 0rem 1rem 0rem 1rem;
+    color: white;
 }
 
 .footer-media {
     display: flex;
     margin: 0rem 1rem 0rem 1rem;
+    align-items: center;
+}
+
+.fa-linkedin {
+    color: white;
+    font-size: 2rem;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.fa-github {
+    color: white;
+    font-size: 2rem;
+    padding: 0rem 0.5rem 0rem 0.5rem
 }

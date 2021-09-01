@@ -1,11 +1,12 @@
 .projects-gallery {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .project {
     height: 16rem;
     border-radius: 10%;
+    margin: 1rem 0rem 1rem 0rem;
 }
 
 .hover-container {
@@ -13,6 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 1rem 0rem 1rem 0rem;
     flex-direction: column;
     height: 16rem;
     width: 22rem;
@@ -32,9 +34,21 @@
 .github-container {
     display: flex;
     align-items: center;
+    margin: 1rem 0rem 1rem 0rem;
 }
 
 .link-container {
     display: flex;
     align-items: center;
+}
+
+.fa-link {
+    font-size: 1.5rem;
+    color: white;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.link-styles {
+    text-decoration: none;
+    color: white;
 }
