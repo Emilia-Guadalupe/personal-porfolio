@@ -1,4 +1,40 @@
+.projects-gallery {
+    display: flex;
+    justify-content: center;
+}
+
 .project {
     height: 16rem;
     border-radius: 10%;
+}
+
+.hover-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 16rem;
+    width: 22rem;
+    background: linear-gradient(179.66deg, rgba(236, 116, 128, 0) -5.85%, #4869b1 30.84%);
+    border-radius: 10%;
+    opacity: 0;
+}
+
+.hover-container:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 0.3s ease-in-out; /** Firefox **/
+    -o-transition: all 0.3s ease-in-out; /** Opera **/
+}
+
+.github-container {
+    display: flex;
+    align-items: center;
+}
+
+.link-container {
+    display: flex;
+    align-items: center;
 }
