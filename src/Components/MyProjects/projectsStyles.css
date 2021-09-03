@@ -1,0 +1,21 @@
+.projects-gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.total-project-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hover-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project {
+    height: 25rem;
+}
