@@ -1,5 +1,5 @@
 import React from 'react'
-import './projectStyles.css';
+import './projectsStyles.css';
 
 function Project({photo, githubLink, pageLink}) {
     return(

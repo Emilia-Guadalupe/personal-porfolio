@@ -1,5 +1,5 @@
 import React from 'react';
-import './projectStyles.css';
+import './projectsStyles.css';
 
 //Components
 import Project from './Project';
@@ -14,14 +14,10 @@ function ProjectsGallery() {
 
     return(
         <div className="projects-gallery">
-            <div>
                 <Project photo={QuorumProject} githubLink="https://github.com/Emilia-Guadalupe/Quorum-iTeam-proyect" pageLink="https://quorum-i-team-proyect.vercel.app/" />
                 <Project photo={EnLaNubeProject} githubLink="https://github.com/Emilia-Guadalupe/React-Proyect" pageLink="https://wonderful-snyder-c0c791.netlify.app/" />
-            </div>
-            <div>
                 <Project photo={ToDoListProject} githubLink="https://github.com/Emilia-Guadalupe/To-Do-List-App" pageLink="https://inspiring-wright-0c51b2.netlify.app" />
                 <Project photo={PokeProject} githubLink="https://github.com/Emilia-Guadalupe/PokeReact" pageLink="https://stupefied-swirles-51325b.netlify.app/" />
-            </div>
         </div>
     )
 }
