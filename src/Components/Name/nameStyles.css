@@ -1,6 +1,6 @@
 .name_text {
     text-align: center;
-    color: #fffffe;
+    color: #232946;
 }
 
 .title_container {
@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #232946;
+    background-color: #d4d8f0;
 }
 
 .elements_container {

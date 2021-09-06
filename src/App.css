@@ -2,3 +2,8 @@
     padding: 0px;
     margin: 0px;
 }
+
+.App {
+    width: 100vw;
+    height: 100vh;
+}
