@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ProjectsGallery from './ProjectsGallery';
+
 function MyProjects() {
     return(
         <div className="my-projects-container">
@@ -9,6 +11,7 @@ function MyProjects() {
             <p className="my-projects-text">
                 Algunos de mis proyectos más recientes hechos con React son: una librería e-commerce vinculada a Firebase, una lista de pendientes, una landing page, un Pókedex vinculado a una API entre otros. Están disponibles para verse en mi perfil de Github. 
             </p>
+            <ProjectsGallery />
         </div>
     )
 }

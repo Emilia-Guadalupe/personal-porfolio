@@ -1,5 +1,4 @@
 import React from 'react';
-import './nameStyles.css';
 
 function Name() {
     return(

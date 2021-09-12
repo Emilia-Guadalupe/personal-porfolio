@@ -17,6 +17,7 @@ export const NavBarWrapper = styled.nav`
         flex-direction: row; 
         position: initial;
         height: auto;
+        width: 100%;
         justify-content: flex-end;
         background: #232946;
     }

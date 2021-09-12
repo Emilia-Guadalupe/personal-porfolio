@@ -1,5 +1,4 @@
 import React from 'react';
-import './myStackStyles.css';
 
 //Components
 import StackList from './StackList';

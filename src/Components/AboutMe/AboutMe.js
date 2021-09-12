@@ -1,5 +1,4 @@
 import React from 'react';
-import './aboutMeStyles.css';
 
 //Images
 import ProfileDrawing from './assets/undraw_online_resume_re_ru7s.svg';
