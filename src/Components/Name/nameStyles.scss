@@ -1,0 +1,44 @@
+$nameFont: 'Josefin Sans', sans-serif;
+$bgColor:  #232946;
+
+.title_container {
+    background-color: $bgColor;
+}
+
+.name_text {
+    font-size: 2rem;
+    text-align: center;
+    font-family: $nameFont;
+    padding: 0.5rem;
+    color: white;
+}
+
+.dev_text {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: $nameFont;
+    color: white;
+}
+
+@media (max-width:480px) {
+    .title_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .elements_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    .name_container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
