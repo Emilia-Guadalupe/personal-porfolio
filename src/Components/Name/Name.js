@@ -1,4 +1,5 @@
 import React from 'react';
+import './nameStyles.scss';
 
 function Name() {
     return(
@@ -6,9 +7,9 @@ function Name() {
             <div className="elements_container">
                 <p>PHOTO</p>
             </div>
-            <div className="elements_container">
+            <div className="name_container">
                 <h1 className="name_text">Emi Guadalupe</h1>
-                <p className="name_text">Web Developer</p>
+                <p className="dev_text">Web Developer</p>
             </div>
         </div>
     )
