@@ -42,3 +42,10 @@ $bgColor:  #232946;
         align-items: center;
     }
 }
+
+@media (min-width: 1024px) {
+    .title_container {
+        display: flex;
+        justify-content: center;
+    }
+}

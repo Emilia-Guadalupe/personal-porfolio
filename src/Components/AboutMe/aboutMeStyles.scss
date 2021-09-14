@@ -1,0 +1,24 @@
+@media (max-width: 480px) {
+    .about-me-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: hidden;
+        align-items: center;
+    }
+
+    .about-me-text {
+        width: 80%;
+        text-align: justify;
+    }
+
+    .image-part {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+    }
+
+    .image_drawing {
+        height: 8rem;
+    }
+}
