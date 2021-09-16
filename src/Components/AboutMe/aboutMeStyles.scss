@@ -1,3 +1,5 @@
+$nameFont: 'Josefin Sans', sans-serif;
+
 @media (max-width: 480px) {
     .about-me-part {
         display: flex;
@@ -5,11 +7,14 @@
         justify-content: center;
         overflow-x: hidden;
         align-items: center;
+        margin: 0.5rem;
     }
 
     .about-me-text {
         width: 80%;
         text-align: justify;
+        font-family: $nameFont;
+        padding: 0.5rem;
     }
 
     .image-part {
@@ -20,5 +25,9 @@
 
     .image_drawing {
         height: 8rem;
+    }
+
+    .second-title {
+        font-family: $nameFont;
     }
 }
