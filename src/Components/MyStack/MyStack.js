@@ -2,6 +2,7 @@ import React from 'react';
 
 //Components
 import StackList from './StackList';
+import './stackStyles.scss';
 
 //Helpers
 import { frontStack } from './frontStack';
@@ -13,7 +14,7 @@ function MyStack() {
     return(
         <div className="full-stack-page">
             <div className="my-stack-container">
-                <h3>Mi Stack y tecnologías</h3>
+                <h3 className="stack-title">Mi Stack y tecnologías</h3>
                 <p className="about-my-stack">Empecé mi formación como Desarrolladora especializándome en Front End y actualmente me encuentro estudiando Node.js y Express, para poder contar con conocimientos de Back End</p>
             </div>
             <div className="stack-list-container">

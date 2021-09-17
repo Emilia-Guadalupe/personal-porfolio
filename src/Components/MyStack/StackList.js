@@ -1,4 +1,5 @@
 import React from 'react';
+import './stackStyles.scss';
 
 function StackList({id, name, img}) {
 
