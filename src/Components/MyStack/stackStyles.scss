@@ -1,0 +1,34 @@
+$nameFont: 'Josefin Sans', sans-serif;
+
+@media (max-width: 480px) {
+    .my-stack-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: hidden;
+        align-items: center;
+        margin: 0.5rem;
+    }
+
+    .stack-list-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-my-stack {
+        width: 80%;
+        text-align: justify;
+        font-family: $nameFont;
+        padding: 0.5rem;
+    }
+
+    .stack-title {
+        font-family: $nameFont;
+    }
+
+    .stack-image {
+        height: 3rem;
+    }
+}
