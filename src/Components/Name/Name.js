@@ -8,7 +8,7 @@ function Name() {
                 <p>PHOTO</p>
             </div>
             <div className="name_container">
-                <h1 className="name_text">Emi Guadalupe</h1>
+                <h1 className="name_text">Emilia Guadalupe</h1>
                 <p className="dev_text">Web Developer</p>
             </div>
         </div>
