@@ -1,0 +1,34 @@
+$nameFont: 'Josefin Sans', sans-serif;
+
+.my-projects-title {
+    font-family: $nameFont;
+    padding: 0.5rem;
+}
+
+.my-projects-text {
+    font-family: $nameFont;
+    text-align: justify;
+}
+
+.project {
+    border-radius: 5%;
+}
+
+@media (max-width: 480px) {
+    .my-projects-container {
+        margin: 1.5rem 2rem 1.5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: hidden;
+        align-items: center;
+    }
+
+    .projects-gallery {
+        margin: 1rem 0rem 1rem 0rem;
+    }
+
+    .project {
+        height: 12rem;
+    }
+}
