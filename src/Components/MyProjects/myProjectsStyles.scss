@@ -31,4 +31,18 @@ $nameFont: 'Josefin Sans', sans-serif;
     .project {
         height: 12rem;
     }
+
+    .github-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        background-color: lightseagreen;
+    }
+
+    .link-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
